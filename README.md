@@ -12,7 +12,10 @@ Follow the steps below when preparing and publishing a fix:
    - Update the code for the fix you want to release.
 3. **Bump the package version**
    - Update the package version according to your release policy.
-4. **Publish the package**
+4. **Create a pull request for review**
+   - Open a pull request on GitHub to merge your changes into the `cbx` branch.
+5. **Publish the package after merge**
+   - Once the PR is approved and merged, publish the package from the up-to-date `cbx` branch by running:
    - `npm publish --access public`
-5. **Create a pull request and tag the release**
-   - Open a pull request on GitHub and add a release tag.
+6. **Tag the release**
+   - After publishing, create a release tag on GitHub for the new version.
