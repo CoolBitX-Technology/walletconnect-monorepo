@@ -1,9 +1,9 @@
 {
-  "name": "@walletconnect/react-native-compat",
+  "name": "@coolwallet-app/react-native-compat",
   "description": "Native modules and shims for WalletConnect Protocol in React Native Projects",
-  "version": "2.23.7",
-  "author": "WalletConnect, Inc. <walletconnect.com>",
-  "homepage": "https://github.com/walletconnect/walletconnect-monorepo/",
+  "version": "2.23.7-cbx.0",
+  "author": "CoolBitX, Inc. <coolbitx.com>",
+  "homepage": "https://github.com/CoolBitX-Technology/walletconnect-monorepo/",
   "license": "SEE LICENSE IN LICENSE.md",
   "main": "index.js",
   "files": [
@@ -59,10 +59,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WalletConnect/walletconnect-monorepo.git",
+    "url": "git+https://github.com/CoolBitX-Technology/walletconnect-monorepo.git",
     "directory": "packages/react-native-compat"
   },
   "publishConfig": {
-    "provenance": true
+    "provenance": false
   }
 }
